@@ -1,15 +1,15 @@
 class Ferret < Formula
   desc "Instant whole-disk file search for macOS: CLI, picker, live-updating daemon and MCP server"
   homepage "https://github.com/nimiology/ferret"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/nimiology/ferret/releases/download/v0.1.0/ferret-aarch64-apple-darwin.tar.xz"
-      sha256 "e6007609fc80ba79779196b40e37ae958edc2d2a64866da584ca690cbc47faca"
+      url "https://github.com/nimiology/ferret/releases/download/v0.2.0/ferret-aarch64-apple-darwin.tar.xz"
+      sha256 "c7e0cd872269c1f1ba4346e12fcdee6d8393f97162fd60aab6ffbe42d1007d8e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nimiology/ferret/releases/download/v0.1.0/ferret-x86_64-apple-darwin.tar.xz"
-      sha256 "4ebf69a5d19109fa101c8fe1e619c02b50b171f1f76a14d4fac0b1bb8370e13e"
+      url "https://github.com/nimiology/ferret/releases/download/v0.2.0/ferret-x86_64-apple-darwin.tar.xz"
+      sha256 "5a0acc9c1df287e3583411d6a5d22623004f57d10f56cb5bb57762291cfa4f80"
     end
   end
   license "MIT"
